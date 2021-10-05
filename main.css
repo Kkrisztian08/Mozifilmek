@@ -1,3 +1,43 @@
-label{
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: white;
+}
+
+.btn-light {
     font-weight: bold;
+}
+
+p {
+    font-weight: bold;
+}
+div{
+    margin-bottom: 1em;
+}
+.adatok {
+    background-color: teal;
+    padding: 3em;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+}
+.container{
+    margin-top: 1em;
+}
+.gomb{
+    border:none;
+    background-color: white;
+    border-radius: 5em;
+    width: 50%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    height: 3em;
+}
+.adatok input{
+    border-radius: 5em;
+    width: 70%;
+    border:none;
+}
+.jumbotron{
+    text-align: center;
+    background-color: rgb(5, 61, 61) !important;
+    color: white;
+
 }
